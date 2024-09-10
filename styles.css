@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: var(--Stone-600);
+}
+:root{
+    --White: hsl(0,0%,100%)
+    --Stone-150: hsl(30, 18%,87%)
+    --Stone-900: hsl(24,5%,18%)
+    --Rose-50: hsl(330, 100%,98%)
+}
+body{
+    background-color: var(--Stone-150);
+    width: 100vw;
+}
+.container{
+    width: 100%;
+}
+.main{
+    width: 700px;
+    margin: 100px auto;
+    background-color: var(--White);
+}
+img{
+    width: 100%;
+    margin-bottom: 30px;
+    
+}
+header h1{
+    margin-bottom: 25px;
+    font-family: serif;
+    font-weight: 400;
+    color: var(--Stone-900);
+}
+header,section{
+    margin-bottom: 30px;
+}
+.perpare{
+    background-color: pink;
+    padding: 20px;
+    border-radius: 10px;
+}
+.prepare h3{
+    color: palevioletred;
+    margin-bottom: 10px;
+}
+ul{
+    margin-left: 25px;
+}
+ul li p{
+    margin: 10px;
+}
+section h2{
+    font-family: serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: brown;
+}
+ol{
+    margin-left: 23px;
+}
+ol li p{
+    margin: 10px;
+    line-height: 1.5;
+}
+table{
+    width: 100%;
+    height: 200px;
+    margin: 20px 0;
+    border-collapse: collapse;
+}
+table tr:nth-of-type(-n+3){
+    border-bottom: 1px solid #ada587;
+}
+table tr td{
+    padding-left: 30px;
+}
+table td:nth-of-type(2){
+    color: brown;
+    font-weight: bold;
+}
+span{
+    color: #ada587;
+    font-weight: bold;
+}
+@media screen and (min-width:376px){
+    .main{
+        padding: 25px;
+        border-radius: 20px;
+    }
+    img{
+        border-radius: 20px;
+        height: 300px;
+    }
+}
+@media  screen and (max-width: 375px){
+    .main{
+        width: 370px;
+    }
+    .second{
+        padding: 25px;
+    }
+
+}
+    
